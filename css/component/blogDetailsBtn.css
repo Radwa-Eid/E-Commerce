@@ -1,0 +1,15 @@
+.blogDetailsBtn{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 0;
+}
+.blogDetailsBtn button{
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 500px;
+}
+.blogDetailsBtn button:hover{
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+}

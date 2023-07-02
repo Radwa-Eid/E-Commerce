@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tittl Name-->
+    <title>Learts Demo</title>
+    <!--Font Awwsome Link Start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awwsome Link End-->
+
+    <!--BootStrap Link Css Start -->
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+    <!--BootStrap Link Css End -->
+
+    <!--Owl Carousel Links Start-->
+    <link rel="stylesheet" href="./css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/vendor/owl.theme.default.css">
+    <!--Owl Carousel Links End-->
+
+    <!--Vendor File Link Start-->
+    <link rel="stylesheet" href="./css/vendor/animate.css">
+    <!--Vendor File Link End-->
+
+    <!--Style Link Css Start -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Style Link Css End -->
+</head>
+
+<body>
+    
+    <!--Top Bar Area Start-->
+    <div class="topBar">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-auto col-12">
+                    <p class="topBar__para text-center">Free shipping for orders over $59 !</p>
+                </div>
+                <div class="col-auto d-md-block d-none">
+                    <div class="row">
+                        <ul class="d-flex topBar__list">
+                            <li class="topBar__list__item1">
+                                <a href="#"><i class="fa-solid fa-location-dot"></i>Store Location</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-solid fa-truck"></i>Order Status</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Top Bar Area End-->
+
+    <!--Header Area Start-->
+    <header>
+        <div class="headersection d-none d-xl-block">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <!--Language & Currency Area Start-->
+                    <div class="col">
+                        <ul class="d-flex">
+                            <li class="headerLanguage language__list">
+                                <a href="#">English<i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="listHeader">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Arabic</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">German</a></li>
+                                    <li><a href="#">Italian</a></li>
+                                    <li><a href="#">Russian</a></li>
+                                    <li><a href="#">Spanich</a></li>
+                                    <li><a href="#">Chinese</a></li>
+                                </ul>
+                            </li>
+                            <li class="headerLanguage">
+                                <a href="#">USD<i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="listHeader">
+                                    <li><a href="#">USD</a></li>
+                                    <li><a href="#">EUR</a></li>
+                                    <li><a href="#">GBP</a></li>
+                                    <li><a href="#">INR</a></li>
+                                    <li><a href="#">BDT</a></li>
+                                    <li><a href="#">JPY</a></li>
+                                    <li><a href="#">CAD</a></li>
+                                    <li><a href="#">AUD</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--LAnguage & Currency Area End-->
+
+                    <!--Logo Area Start-->
+                    <div class="col hearder__logo">
+                        <div class="row justify-content-center">
+                            <a href="./index.html">
+                                <img src="./img/HeaderLogo/logo_225x.png" alt="Learts Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Logo Area Start-->
+
+                    <!--Header Tools Area Start-->
+                    <div class="col">
+                        <div class="row justify-content-end headerTools">
+                            <div class="header__login">
+                                <a href="./login.html"><i class="fa-regular fa-user"></i></a>
+                            </div>
+                            <div class="header__search">
+                                <a id="searchICON" href="#searchCart"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="header__wishlist">
+                                <a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="header__shopping">
+                                <a class="shopping" href="./cart.html">
+                                    <div id="cartLenght"></div>
+                                    <i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Header Tools Area End-->
+
+                <!--Menu Bar Area Start-->
+                <div id="headerScrolling" class="menuHeader">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <ul class="d-flex menuList">
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./shoping.html">Shop</a></li>
+                                <li><a href="./Portfolio.html">Portfolio</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./aboutus.html">About Us</a></li>
+                                <li><a href="./contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Menu Bar Area End-->
+            </div>
+            <!--Search Area Start-->
+            <div class="searchCart">
+                <div id="searchCart" class="searchcontainer">
+                    <div class="d-flex flex-column searchContent">
+                        <button id="searchClose" class="closeBtn">.</button>
+                        <div class="col-lg-12 col-12">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input id="searchingProduct" class="searchPorto__Input" type="search" name="search"
+                                        placeholder="Search Our Store">
+                                </div>
+                                <div id="searching">
+                                    <h3 id="searchList__Heading" class="searchList__Heading">Products</h3>
+                                    <ul id="searchingResult"></ul>
+                                </div>
+                            </form>
+                            <p># Type at least 1 character to search # Hit enter to search or ESC to close</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Search Area End-->
+        </div>
+
+         <!--Mobil Header Area Start-->
+         <div id="mobileSrolling" class="mobileHeader d-xl-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--Mobile Logo Start-->
+                    <div class="col hearder__logo">
+                        <div class="row justify-content-center">
+                            <a href="./index.html">
+                                <img src="./img/HeaderLogo/logo-2_225x.png" alt="Learts Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Mobile Logo End-->
+
+                    <!--Mobile Menu Start-->
+                    <div class="col-auto">
+                        <div class="row justify-content-end align-items-center headerTools">
+                            <div class="header__login d-none d-sm-block">
+                                <a href="./login.html"><i class="fa-regular fa-user"></i></a>
+                            </div>
+                            <div class="header__search d-none d-sm-block">
+                                <a href="#Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="header__wishlist d-none d-sm-block">
+                                <a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="header__shopping d-none d-sm-block">
+                                <a class="shopping" href="./cart.html">
+                                    <div id="cartLenght"></div>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                            <div class="mobileMenu">
+                                <a id="mobileMenu" href="#mobileList"><i class="fa-solid fa-minus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Mobile Menu End-->
+                </div>
+            </div>
+        </div>
+        <!--Mobil Header Area End-->
+
+        <!--Mobil Menu Tools Start-->
+        <div id="mobileList" class="menu mobile__menu__open">
+            <div class="d-flex flex-column mobilelistContainer">
+                <!--Mobile Menu Search Start-->
+                <div class="menu__search__form mb-30">
+                    <div id="search-toggle">
+                        <form action="#search" class="form_control">
+                            <input class="searchInput" id="search" type="text" type="search" name="search" value=""
+                                placeholder="Search Our Store">
+                            <button class="searchBtn" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <!--Mobile Menu Search End-->
+                <!--Mobile Menu List Start-->
+                <div>
+                    <ul class="d-flex flex-column menuListmobile">
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./shoping.html">Shop</a></li>
+                        <li><a href="./index.html">Portfolio</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
+                        <li><a href="./commingsoon.html">comming soon</a></li>
+                    </ul>
+                </div>
+                <!--Mobile Menu List End-->
+                <!--Mobile Menu Tools Start-->
+                <div class="row justify-content-start headerTools mb-30 mt-30">
+                    <div class="header__login">
+                        <a href="./login.html"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="header__wishlist">
+                        <a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                    <div class="header__shopping">
+                        <a class="shopping" href="./cart.html">
+                            <div id="cartLenght"></div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Mobile Menu Tools End-->
+                <!--Social Media Area Start-->
+                <div class="socialHeader">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <!--Social Media Area End-->
+
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <!--Mobil Menu Tools End-->
+    </header>
+    <!--Header Area End-->
+
+    <!--Main Area Start-->
+    <main>
+        <!--Portofolio Tittle Start-->
+        <section id="portoDetails">
+            <div class="wishPage">
+                <div class="wishlistBg p-130">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="wishTittle">
+                                    <h1 id="wishHeading" class="wishHeading mb-30"></h1>
+                                    <ul class="wishlist__list d-flex">
+                                        <li class="wishIcon pr-2">
+                                            <a href="./index.html">Home</a>
+                                        </li>
+                                        <li class="wishIcon wishItem2 pr-2 pl-1">
+                                            <a href="./Portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="wishIcon wishItem2 pl-1">
+                                            <span id="listPorto__Item3"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Portofolio Tittle End-->
+
+        <!--Portofolio Section Start-->
+        <section class="portofolio">
+            <div class="container">
+                <div class="row">
+                    <!--Portofolio Details Area Start-->
+                    <div class="col-lg-9 col-12 mb-50" id="portoDetailsCart"></div>
+                    <!--Portofolio Details Area End-->
+
+                    <!--Left Side Area Start-->
+                    <div class="col-lg-3 col-12 mb-11">
+                        <!--Search Area Start-->
+                        <div class="mb-40">
+                            <h3 class="portofolio___searchTittle">Search</h3>
+                            <div class="portofolio___searchForm">
+                                <form action="./search.html" class="form__Search">
+                                    <input class="searchPorto__Input" type="search" name="searchPorto" id="searchPorto"
+                                        placeholder="Search Our Store">
+                                    <button class="d-flex searchPorto__btn align-items-center justify-content-center"
+                                        type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <!--Search Area End-->
+
+                        <!--Blog Posts Area Start-->
+                        <div class="mb-40">
+                            <ul class="blogList">
+                                <li class="d-flex">
+                                    <div class="blogList__img">
+                                        <a href="./Portfolio.html">
+                                            <img src="./img/portofolio/portfolio-5_b533bcf4-e39a-4df3-8ea5-97534280ab4b_medium.jpg"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blogList__text">
+                                        <h6 class="blogList__text__Heading">
+                                            <a href="./Portfolio.html">Knitted Table Pla...</a>
+                                        </h6>
+                                        <span class="blogList__text__Date">Jan 20, 2021</span>
+                                    </div>
+                                </li>
+                                <li class="d-flex blogList__item2">
+                                    <div class="blogList__img">
+                                        <a href="./Portfolio.html">
+                                            <img src="./img/portofolio/portfolio-4_3bd67acd-8544-4c2c-869a-be616f737a37_medium.jpg"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blogList__text">
+                                        <h6 class="blogList__text__Heading">
+                                            <a href="./Portfolio.html">Square RoseWood Box</a>
+                                        </h6>
+                                        <span class="blogList__text__Date">Jan 20, 2021</span>
+                                    </div>
+                                </li>
+                                <li class="d-flex blogList__item2">
+                                    <div class="blogList__img">
+                                        <a href="./Portfolio.html">
+                                            <img src="./img/portofolio/portfolio-2_medium.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blogList__text">
+                                        <h6 class="blogList__text__Heading">
+                                            <a href="./Portfolio.html">Wooden Cutting Board</a>
+                                        </h6>
+                                        <span class="blogList__text__Date">Jan 20, 2021</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Blog Posts Area End-->
+
+                        <!--Archive Area Start-->
+                        <div class="archive mb-20">
+                            <h2 class="archive__Heading mb-11">Archive</h2>
+                            <ul class="archivelist">
+                                <li class="archivelist__item1 mb-3">January 2021</li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Knitted Table Placemats</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Square RoseWood Box</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Wooden Cutting Board</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Fresh Fruit Keeper</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Knitted Table Placemats</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Square RoseWood Box</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Wooden Cutting Board</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Fresh Fruit Keeper</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Archive Area End-->
+
+                        <!--Tags Area Start-->
+                        <div class="mb-40">
+                            <h3 class="archive__Heading mb-30">Tags</h3>
+                            <div class="tagsImg mb-40">
+                                <img src="./img/portofolio/widget-banner_e3182688-1a82-4d7e-b0e2-9e483b9943e3_grande.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <!--Tags Area End-->
+
+                        <!--Menu Area Start-->
+                        <div class="archive mb-20">
+                            <h2 class="archive__Heading mb-11">Custom Menu</h2>
+                            <ul class="archivelist">
+                                <li class="archivelist__item2">
+                                    <a href="#">Knitted Table Placemats</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Square RoseWood Box</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Wooden Cutting Board</a>
+                                </li>
+                                <li class="archivelist__item2">
+                                    <a href="#">Fresh Fruit Keeper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Left Side Area End-->
+                </div>
+            </div>
+        </section>
+        <!--Portofolio Section End-->
+
+    </main>
+    <!--Main Area End-->
+
+    <!--Footer Area Start-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center flex-column">
+                <div class="footerLogo text-center mb-60">
+                    <a href="#">
+                        <img src="./img/HeaderLogo/logo_225x.png" alt="">
+                    </a>
+                </div>
+                <div class="footerMenu mb-40">
+                    <ul class="d-flex justify-content-center">
+                        <li class="footerMenuItem">
+                            <a href="./aboutus.html">about us</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">Store Location</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="./contactus.html">Contact</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">support</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">policy</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">faqs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-coloumn justify-content-center mb-50">
+                    <div class="footer__form">
+                        <div class="col">
+                            <form class="footerForm" action="#">
+                                <input class="footerInput" name="customerEmail" type="email"
+                                    placeholder="Your Email Address">
+                                <button name="subscrite" class="btn btn-dark footerBtn" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footerIcon mb-50">
+                    <ul class="row justify-content-center">
+                        <li><a class="productIcon" id="footerIcon1" href="https://www.twitter.com/"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="productIcon" id="footerIcon2" href="https://www.facebook.com/"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="productIcon" id="footerIcon3" href="https://www.instagram.com/"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a class="productIcon" id="footerIcon4" href="https://www.youtube.com/"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footerCopyright d-flex">
+                    <div class="col">
+                        <p class="copyRight">
+                            © 2022 LeArts. All Rights Reserved |
+                            <strong>(+00) 123 456789 </strong>
+                            | <a href="#">contact@demo.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Area End-->
+
+    <!--Back To Top Button Area Start-->
+    <button class="btn" id="backTop"><i class="fa-solid fa-arrow-up"></i></button>
+    <!--Back To Top Button Area End-->
+
+    <!--Js Links Start-->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/portofolioDetails.js"></script>
+    <script src="./js/main.js"></script>
+    <!--Js Links End-->
+</body>
+
+</html>

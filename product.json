@@ -1,0 +1,176 @@
+{
+    "sale": [
+        {
+            "id": 0,
+            "count": 1,
+            "title": "3D Products",
+            "img1": "./img/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_600x800_crop_bottom.jpg",
+            "image_url": "./img/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_600x800_crop_bottom2.jpg",
+            "newPrice": 110.00,
+            "oldPrice": 130.00,
+            "sale": -10,
+            "optionImg1": "./img/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_icon_crop_center.jpg",
+            "optionImg2": "./img/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_icon_crop_center.jpg",
+            "optionImg3": "./img/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_icon_crop_center.jpg",
+            "cart1": "./img/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_600x800_crop_bottom.jpg",
+            "cart2": "./img/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_600x800_crop_bottom.jpg",
+            "cart3": "./img/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_600x800_crop_bottom.jpg"
+        },
+        {
+            "id": 1,
+            "count": 1,
+            "title": "Geometric Modern Clock",
+            "img1": "./img/products/product-27-540x720_360x.jpg",
+            "image_url": "./img/products/product-28-540x720_360x.jpg",
+            "newPrice": 139.00,
+            "oldPrice": 160.00,
+            "sale": -10,
+            "optionImg1": "./img/products/product-27-540x720_icon_crop_center.jpg",
+            "optionImg2": "./img/products/product-28-540x720_icon_crop_center.jpg",
+            "optionImg3": "./img/products/product-29-540x720_icon_crop_center.jpg",
+            "cart1": "./img/products/product-27-540x720_360x.jpg",
+            "cart2": "./img/products/product-28-540x720_360x.jpg",
+            "cart3": "./img/products/product-30-540x720_600x800_crop_bottom.jpg"
+        },
+        {
+            "id": 2,
+            "count": 1,
+            "title": "Adhesive Tape Dispenser",
+            "img1": "./img/products/product-24-540x720_360x.jpg",
+            "image_url": "./img/products/product-25-540x720_360x.jpg",
+            "newPrice": 39.00,
+            "oldPrice": 60.00,
+            "sale": -35,
+            "optionImg1": "./img/products/product-24-540x720_icon_crop_center.jpg",
+            "optionImg2": "./img/products/product-25-540x720_icon_crop_center.jpg",
+            "optionImg3": "./img/products/product-26-540x720_icon_crop_center.jpg",
+            "cart1": "./img/products/product-24-540x720_2048x2048.jpg",
+            "cart2": "./img/products/product-25-540x720_2048x2048.jpg",
+            "cart3": "./img/products/product-26-540x720_600x800_crop_bottom.jpg"
+        },
+        {
+            "id": 3,
+            "count": 1,
+            "title": "Electric Egg Blender",
+            "img1": "./img/products/kitchen-egg-whisk-1-540x720_360x.png",
+            "image_url": "./img/products/kitchen-egg-whisk-2-540x720_360x.png",
+            "newPrice": 360.00,
+            "oldPrice": 390.00,
+            "sale": -35,
+            "optionImg1": "./img/products/kitchen-egg-whisk-1-540x720_icon_crop_center.png",
+            "optionImg2": "./img/products/kitchen-egg-whisk-2-540x720_icon_crop_center.png",
+            "optionImg3": "./img/products/kitchen-egg-whisk-3-540x720_icon_crop_center.png",
+            "cart1": "./img/products/kitchen-egg-whisk-3-540x720_600x800_crop_bottom.png",
+            "cart2": "./img/products/kitchen-egg-whisk-2-540x720_540x.png",
+            "cart3": "./img/products/kitchen-egg-whisk-1-540x720_540x.png"
+        },
+        {
+            "id": 4,
+            "count": 1,
+            "title": "Lucky Wooden Elephant",
+            "img1": "./img/products/product-09-540x720_540x.jpg",
+            "image_url": "./img/products/product-10-540x720_540x.jpg",
+            "newPrice": 55.00,
+            "oldPrice": 75.00,
+            "sale": -15,
+            "optionImg1": "./img/products/product-10-540x720_180x.jpg",
+            "optionImg2": "./img/products/product-09-540x720_180x.jpg",
+            "optionImg3": "./img/products/product-11-540x720_600x800_crop_bottom.jpg",
+            "cart1": "./img/products/product-10-540x720_540x2.jpg",
+            "cart2": "./img/products/product-09-540x720_600x800_crop_bottom.jpg",
+            "cart3": "./img/products/product-11-540x720_600x800_crop_bottom.jpg"
+        }
+    ],
+    "nosale": [
+        {
+            "id": 5,
+            "count": 1,
+            "title": "Fish Cut Out Set",
+            "img1": "./img/products/product-58-540x720_360x.jpg",
+            "image_url": "./img/products/product-59-540x720_360x.jpg",
+            "newPrice": 39.00,
+            "oldPrice": 60.00,
+            "sale": -10
+        },
+        {
+            "id": 6,
+            "count": 1,
+            "title": "Dark Brown Leather Watch",
+            "img1": "./img/products/w5_360x.jpg",
+            "image_url": "./img/products/w6_360x.jpg",
+            "newPrice": 70.00,
+            "oldPrice": 85.00,
+            "sale": -18
+        },
+        {
+            "id": 7,
+            "count": 1,
+            "title": "Abstract Wooden Pots",
+            "img1": "./img/products/product-45-540x720_360x.jpg",
+            "image_url": "./img/products/product-46-540x720_360x.jpg",
+            "newPrice": 19.00,
+            "oldPrice": 21.00,
+            "sale": -10
+        },
+        {
+            "id": 8,
+            "count": 1,
+            "title": "Cape Cottage Playhouse",
+            "img1": "./img/products/house-1-540x720_360x.png",
+            "image_url": "./img/products/house-2-540x720_360x.png",
+            "newPrice": 55.00,
+            "oldPrice": 75.00,
+            "sale": -10
+        }
+    ],
+    "noOption": [
+        {
+            "id": 9,
+            "count": 1,
+            "title": "Walnut Cutting Board",
+            "img1": "./img/products/product-1-540x720_360x.jpg",
+            "image_url": "./img/products/product-74-540x720_360x.jpg",
+            "newPrice": 29.00
+        },
+        {
+            "id": 10,
+            "count": 1,
+            "title": "Black Leather Watch",
+            "img1": "./img/products/w1_360x.jpg",
+            "image_url": "./img/products/w2_360x.jpg",
+            "newPrice": 50.00
+        },
+        {
+            "id": 11,
+            "count": 1,
+            "title": "Brush & Dustpan Set",
+            "img1": "./img/products/product-35-540x720_360x.jpg",
+            "image_url": "./img/products/product-36-540x720_360x.jpg",
+            "newPrice": 50.00
+        },
+        {
+            "id": 12,
+            "count": 1,
+            "title": "Pizza Palet Tray",
+            "img1": "./img/products/product-69-540x720_360x.jpg",
+            "image_url": "./img/products/product-66-540x720_360x.png",
+            "newPrice": 50.00
+        },
+        {
+            "id": 13,
+            "count": 1,
+            "title": "Motorized Tricycle",
+            "img1": "./img/products/product-3-540x720_360x.png",
+            "image_url": "./img/products/product-1-540x720_360x.png",
+            "newPrice": 79.00
+        },
+        {
+            "id": 14,
+            "count": 1,
+            "title": "Cleaning Dustpan & Brush",
+            "img1": "./img/products/product-18-540x720_360x.jpg",
+            "image_url": "./img/products/product-19-540x720_360x.jpg",
+            "newPrice": 29.00
+        }
+    ]
+}

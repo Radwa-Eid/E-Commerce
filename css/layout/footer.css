@@ -1,0 +1,61 @@
+.footer{
+    position: relative;
+    padding: 100px 0px;
+    background-color: #f4ede7;
+}
+.footerMenuItem{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footerMenuItem:hover a{
+    color: #000;
+}
+/*Footer Icon Style Start*/
+
+.footerIcon a{
+    position: relative;
+    line-height: 1.25;
+    display: block;
+    padding: 0 5px;
+    color: #333;
+    margin: 0 10px;
+}
+.productIcon i{
+    position: relative;
+    font-size: 18px;
+}
+
+#footerIcon1::before{
+    position: absolute;
+    content: "Twitter";
+}
+#footerIcon2::before{
+    position: absolute;
+    content: "Facebook";
+}
+
+#footerIcon3::before{
+    position: absolute;
+    content: "Instagram";
+}
+
+#footerIcon4::before{
+    position: absolute;
+    content: "Youtube";
+}
+/*Footer Icon Style End*/
+
+/*Footer Copy Right*/
+.copyRight{
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyRight strong{
+    color: #333;
+}
+.copyRight a:hover{
+    color: #333;
+}

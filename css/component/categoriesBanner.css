@@ -1,0 +1,92 @@
+.categoriesBanner {
+    padding-bottom: 100px;
+    padding-right: 55px;
+    padding-left: 55px;
+    overflow: hidden;
+}
+
+.category1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.category1::before {
+    position: absolute;
+    content: "";
+    border: 1px solid #fff;
+    z-index: 2;
+    transform: scale(0.95);
+    width: 100%;
+    height: 100%;
+}
+.categorySlider .category1 img{
+    transition: all 0.5s ease 0s;
+}
+.categorySlider:hover .category1 img{
+    transform: scale(1.1);
+}
+.category1__Content{
+    color: #333333;
+    font-size: 24px;
+}
+.categoryNummber{
+    position: relative;
+    font-size: 16px;
+    font-family: Futura;
+    line-height: 1;
+    color: #333333;
+}
+.categoryNummber::before{
+    position: absolute;
+    content: "";
+    background-color: #cccccc;
+    width: 50px;
+    font-family: Futura;
+    top: 60%;
+    right: 25px;
+    height: 1px;
+}
+.categoryNummber2::before{
+    right: 35px;
+}
+/*Category Slider Icons Style Start*/
+.categoriesBanner .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 38%;
+    left: -33px;
+    font-size: 20px;
+    transition: all .5s ease 0s;
+    transform: translateX(-60px);
+}
+.categoriesBanner .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 38%;
+    right: -33px;
+    font-size: 20px;
+    transition: all .5s ease 0s;
+    transform: translateX(60px);
+}
+.categoriesBanner:hover .owl-carousel .owl-nav button.owl-prev{
+    transform: translateX(0px);
+}
+
+.categoriesBanner:hover .owl-carousel .owl-nav button.owl-next{
+    transform: translateX(0px);
+}
+.categoriesBanner .owl-carousel .owl-nav button.owl-prev:hover{
+    transform: scale(1.1);
+    color: #333333;
+    background-color: unset;
+}
+.categoriesBanner .owl-carousel .owl-nav button.owl-prev:focus{
+    outline: none;
+}
+.categoriesBanner .owl-carousel .owl-nav button.owl-next:hover{
+    transform: scale(1.1);
+    color: #333333;
+    background-color: unset;
+}
+.categoriesBanner .owl-carousel .owl-nav button.owl-next:focus{
+    outline: none;
+}

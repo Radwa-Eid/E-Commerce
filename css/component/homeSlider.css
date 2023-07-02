@@ -1,0 +1,226 @@
+/*Home Slider Style Strat*/
+.homeSlider {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*Home Slider Style End*/
+.homeSlider .owl-carousel .owl-stage-outer {
+    height: 100%;
+    width: 100% ;
+}
+
+.homeSlider .no-js .owl-carousel,
+.homeSlider .owl-carousel.owl-loaded {
+    height: 100%;
+    width: 100%;
+}
+
+.homeSlider .owl-carousel .owl-stage {
+    height: 100%;
+    width: 100%;
+}
+.homeSlider .owl-carousel.owl-drag .owl-item {
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+    height: 100%;
+    width: 100%;
+}
+
+.slider1 {
+    position: relative;
+    background-image: url(../../img/homeslider/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.slider2 {
+    position: relative;
+    background-image: url(../../img/homeslider/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.slider3 {
+    position: relative;
+    background-image: url(../../img/homeslider/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*Inner Slider1*/
+.innerSlider1 {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+}
+
+.backgroundSlider {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(.85);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.sliderBorder {
+    border: 1px dashed #72a499;
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    transform: scale(.85);
+    border: 1px dashed #72a499;
+    border-radius: 50%;
+    transition: all 1s ease 0s;
+}
+
+.iconSlider {
+    margin-bottom: 15px;
+    transition: all 1s ease 0s;
+}
+
+.sliderHeading {
+    font-family: Modesty;
+    color: #333333;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.subTitle {
+    color: #72a499;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 28px;
+    font-weight: 400;
+}
+
+.sliderLink {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+.sliderLink a{
+    border-bottom: 1px solid #333333;
+}
+.sliderLink a:hover {
+    color: #72a499;
+    border-color: #72a499;
+}
+
+/*Slider2*/
+.headingSlider2 {
+    color: #baa491;
+}
+
+.backgroundSlider2 {
+    background-image: url(../../img/homeslider/slide-2-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.subTitle2 {
+    font-size: 56px;
+    color: #333333;
+}
+
+.sliderLink2 a:hover {
+    color: #baa491;
+    border-color: #baa491;
+}
+
+/*Slider 3*/
+.slider3Contant{
+  width: calc(100% ,-20px);
+  transform: translateY(-20%);
+}
+.headingSlider3{
+    color: #baa491;
+    font-size: 76px;
+}
+.subTitle3{
+    margin-bottom: 35px;
+    padding: 0 80px;
+    color: #333333;
+    font-size: 56px;
+}
+.owl-carousel .owl-item img{
+    width: auto;
+    display: inline;
+}
+.linkSlider3{
+    background-image: url(../../img/homeslider/slide-3.1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+    color: #ffffff;
+    z-index: 9;
+    padding: 0 45px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.linkSlider3 a:hover{
+    color: unset;
+}
+/*Slider Arrows*/
+.homeSlider .owl-carousel .owl-nav button.owl-next{
+    position:absolute;
+    top: 50%;
+    right:10px;
+    font-size: 25px;
+    transition: all .5s ease 0s;
+}
+.homeSlider .owl-carousel .owl-nav button.owl-next:hover{
+    transform: scale(1.5);
+    color: #333333;
+    background-color: unset;
+}
+.homeSlider .owl-carousel .owl-nav button.owl-next:focus{
+    outline: none;
+}
+.homeSlider .owl-carousel .owl-nav button.owl-prev{
+    position:absolute;
+    top: 50%;
+    left: 10px;
+    font-size:25px ;
+    transition: all .5s ease 0s;
+}
+.homeSlider .owl-carousel .owl-nav button.owl-prev:hover{
+    transform: scale(1.5);
+    color: #333333;
+    background-color: unset;
+}
+.homeSlider .owl-carousel .owl-nav button.owl-prev:focus{
+    outline: none;
+}

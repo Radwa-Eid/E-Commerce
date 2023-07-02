@@ -1,0 +1,113 @@
+.saleBanner {
+    padding: 100px 0;
+}
+
+/*Sale Tittle Style Start*/
+.saleTittle {
+    padding-bottom: 80px;
+}
+
+.saleTittle__heading {
+    color: #72a499;
+    font-size: 96px;
+    line-height: 1.3;
+    text-align: center;
+    font-family: Modesty;
+}
+
+/*Sale Tittle Style End*/
+
+/*Sale Content Details Style Start*/
+/*Sale Banner1 Style Start*/
+.saleBaner1 {
+    position: relative;
+    background-image: url(../../img/sales/sale-banner1-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 480px;
+    padding: 75px;
+    height: 100%;
+}
+
+.inner1 {
+    position: absolute;
+    inset: 0;
+}
+
+.innerTittle {
+    color: #333333;
+    font-family: Modesty;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.salePercent {
+    color: #333333;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.saleNumber {
+    font-size: 100px;
+}
+
+.shopingLink {
+    color: #333333;
+    padding: 2px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+}
+
+.shopingLink:hover {
+    border-color: #333333;
+    color: #ff324d;
+}
+
+/*Sale Banner1 Style End*/
+
+/*Sale Banner2 Style Start*/
+.saleBanner2__img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.saleBanner2__img img {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.saleBanner2__img:hover img {
+    transform: scale(1.1);
+}
+
+.saleBanner2__img::before {
+    position: absolute;
+    content: "";
+    border: 1px solid #fff;
+    z-index: 2;
+    transform: scale(0.95);
+    width: 100%;
+    height: 100%;
+}
+
+.inner2Tittle {
+    color: #333333;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.inner2Text {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #333333;
+}
+
+/*Sale Banner2 Style End*/
+/*Sale Content Details Style End*/

@@ -1,0 +1,225 @@
+/*Single Blog Style Start*/
+.singleBlog__Heading{
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #333;
+}
+.singleBlog__List{
+    padding-left: 0;
+}
+.singleBlog__List li{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 10px;
+}
+.singleBlog__List li i{
+    margin-right: 8px;
+    color: #999;
+}
+.singleBlog__List a{
+    border-bottom: 1px solid transparent;
+}
+.singleBlog__List a:hover{
+    color: #333;
+    border-color: #3333;
+}
+.blogFooter{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.shareBlog{
+    font-size: 16px;
+    font-weight: 400;
+}
+.shareBlog__Icon{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    padding: 3px 0;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    border: 2px solid #ededed;
+    border-radius: 100%;
+}
+.shareBlog__Icon i{
+    font-size: 18px;
+}
+.shareBlog__Icon:hover{
+    color: #fff;
+    border-color: #333;
+    background-color: #333;
+}
+/*Single Blog Style Start*/
+
+/*Signal Blog Footer Style Start*/
+/*Comment Area Style Start*/
+.commemt__Heading{
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    color: #333;
+}
+.commentDetails{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.comment__img img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.comment__text{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.commeter{
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+}
+/*Comment Area Style End*/
+/*Signal Blog Footer Style End*/
+
+/*Left Side Bar Style Start */
+.portofolio___searchTittle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #333;
+}
+/*Search Form Style Start*/
+.form__Search{
+    position: relative;
+}
+.searchPorto__Input{
+    display: block;
+    font-weight: 400;
+    color: #333;
+    width: 100%;
+    padding: 8px 36px 8px 0;
+    border: 2px solid transparent;
+    border-bottom-color: #ededed;
+    background-color: transparent;
+    line-height: 1.25;
+    transition: all .5s ease 0s;
+}
+.searchPorto__Input:focus{
+    border: 0px solid transparent;
+    border-bottom: 2px solid #333;
+    outline: none;
+    outline-offset: -2px;
+}
+.searchPorto__btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 100%;
+}
+.searchPorto__btn i{
+    color: #696969;
+}
+.searchPorto__btn i:focus{
+    outline: none;
+}
+/*Search Form Style End*/
+
+/*Blog Posts Style Start*/
+.blogList__img{
+    padding-right: 20px;
+    flex-basis: 120px;
+}
+.blogList__img a img{
+    width: 100%;
+}
+.blogList__text__Heading{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    transition: all .5s ease 0s;
+    color: #333;
+}
+.blogList__text__Heading a:hover{
+    color: unset;
+}
+.blogList__text__Date{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    display: block;
+}
+.blogList__item2{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+/*Blog Posts Style End*/
+
+/*Archive Area Style Start*/
+.archive__Heading{
+    color: #333;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.archivelist__item1{
+    font-weight: 800;
+    font-size: 20px;
+}
+.archivelist__item2{
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+}
+.archivelist__item2 a:hover{
+    color: #f8796c;
+}
+/*Archive Area Style End*/
+
+/*Tags Area Style Start*/
+.tagsImg{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.tagsImg::before{
+    position: absolute;
+    content: "";
+    z-index: 2;
+    top: 0;
+    left: -100%;
+    display: block;
+    width: 50%;
+    height: 100%;
+    transition: all .5s ease 0s;
+    transform: skew(-25deg);
+    background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+}
+.tagsImg:hover::before{
+    animation-name: shine;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes shine {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+/*Tags Area Style End*/
+/*Left Side Bar Style Start */

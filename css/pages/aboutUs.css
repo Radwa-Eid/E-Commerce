@@ -1,0 +1,186 @@
+/*About Us Section Style Start*/
+.aboutUs {
+    padding: 100px 0;
+}
+
+.aboutText__subtittle {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.aboutText__Heading {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+}
+
+.aboutText__text {
+    color: #696969;
+}
+
+.aboutLink {
+    color: black;
+    font-family: Marcellus;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    position: relative;
+    padding-left: 70px;
+}
+
+.aboutLink::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    width: 60px;
+    height: 2px;
+    padding-right: 10px;
+    transition: all .5s ease 0s;
+    bottom: 9px;
+    left: 0;
+}
+
+.aboutLink:hover {
+    color: #f8796c;
+    padding-left: 80px;
+}
+
+.aboutLink:hover::before {
+    width: 70px;
+}
+.about__img img{
+    width: 100%;
+}
+
+/*About Us Section Style End*/
+
+/*
+/*Features Section Style Start*/
+.features {
+    padding-bottom: 100px;
+}
+.feature1__content{
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+.feature1__heading{
+    color: #333;
+    font-family: Futura;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.feature1__text{
+    text-align: center;
+    color: #696969;
+}
+.filter__img{
+    transition: all .5s ease 0s;
+    filter: grayscale(100);
+}
+.filter__img:hover{
+    filter: grayscale(0);
+}
+/*Features Section Style End*/
+
+/*Vedio Section Style Start*/
+.vedioBanner{
+    background-image: url(../../img/about/slide-3_75cc0a62-6922-4676-a983-5a4574dafb79.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+}
+.playIcon{
+    text-align: center;
+}
+.vedio__player{
+    display: block;
+    border-radius: 50%;
+}
+.vedio__player:hover{
+    transform: scale(1.1);
+}
+/*Vedio Section Style End*/
+
+/*Feature Section Style Start*/
+.featureTable{
+    padding: 100px 0;
+}
+
+.featureTable__Heading{
+    font-weight: 400;
+    color: #333;
+    padding: 0;
+    padding-right: 90px;
+}
+.featureTable__text{
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Futura;
+}
+.featureTable__text2{
+    color: #696969;
+    font-size: 16px;
+}
+/*Feature Section Style End*/
+
+/*Gallery Instgram Section Style Start*/
+.gallery-container{
+    padding: 0 55px;
+}
+.gallery__subtittle{
+    color: #72a499;
+    font-family: Modesty;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.gallery__subtittle2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+    color: #333;
+}
+.instaLayer{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.instaIcon{
+    position: absolute;
+    color: #fff;
+    font-size: 26px;
+    z-index: 99;
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+}
+.instaLayer::after{
+    position: absolute;
+    content: "";
+    width: 85%;
+    transform: scale(1.1);
+    opacity: 0;
+    background: #000;
+    z-index: 8;
+    height: 100%;
+    transition: .3s;
+}
+.instaLayer:hover .instaIcon{
+    opacity: 1;
+}
+.instaLayer:hover::after{
+    opacity: .7;
+}
+/*Gallery Instgram Section Style End*/

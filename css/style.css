@@ -1,0 +1,41 @@
+/*Base Files Area Start*/
+@import url(./base/base.css);
+/*Base Files Area Start*/
+
+/*Layout Files Start*/
+@import url(./layout/topbar.css);
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+/*Layout Files End*/
+
+/*Responsive File Start*/
+@import url(./responsive/responsive.css);
+/*Responsive File Area Start*/
+
+/*Component Files Start*/
+@import url(./component/homeSlider.css);
+@import url(./component/saleBanner.css);
+@import url(./component/categoriesBanner.css);
+@import url(./component/shopNow.css);
+@import url(./component/footerForm.css);
+
+/*Buttons Component Start*/
+@import url(./component/shopBtn.css);
+@import url(./component/productButtons.css);
+@import url(./component/footerButton.css);
+@import url(./component/backTop.css);
+@import url(./component/blogDetailsBtn.css);
+/*Buttons Component End*/
+/*Component Files End*/
+
+/*Pages File Start*/
+@import url(./pages/wishlist.css);
+@import url(./pages/portofolio.css);
+@import url(./pages/portofolioDetails.css);
+@import url(./pages/blog.css);
+@import url(./pages/blogDetails.css);
+@import url(./pages/aboutUs.css);
+@import url(./pages/contact.css);
+@import url(./pages/accountPage.css);
+@import url(./pages/yourCart.css);
+/*Pages File End*/

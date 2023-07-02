@@ -1,0 +1,21 @@
+.footerForm .btn{
+    padding: 12px 40px;
+    letter-spacing: 1.5px;
+}
+
+.btn-dark:not(:disabled):not(.disabled).active:focus, .btn-dark:not(:disabled):not(.disabled):active:focus, .show>.btn-dark.dropdown-toggle:focus{
+    box-shadow: none;
+}
+.footerBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    border: transparent;
+}
+.footerBtn:hover{
+    background-color: #72a499;
+}

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tittl Name-->
+    <title>Learts Demo</title>
+    <link rel="shortcut icon" href="./img/products/product-25-540x720_600x800_crop_bottom2.jpg">
+    <!--Font Awwsome Link Start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awwsome Link End-->
+
+    <!--BootStrap Link Css Start -->
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+    <!--BootStrap Link Css End -->
+
+    <!--Owl Carousel Links Start-->
+    <link rel="stylesheet" href="./css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/vendor/owl.theme.default.css">
+    <!--Owl Carousel Links End-->
+
+    <!--Vendor File Link Start-->
+    <link rel="stylesheet" href="./css/vendor/animate.css">
+    <!--Vendor File Link End-->
+
+    <!--Style Link Css Start -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Style Link Css End -->
+</head>
+
+
+<body>
+    <!--Loading Start-->
+    <div class="loading">
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--Loading End-->
+    <!--Top Bar Area Start-->
+    <div class="topBar">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-auto col-12">
+                    <p class="topBar__para text-center">Free shipping for orders over $59 !</p>
+                </div>
+                <div class="col-auto d-md-block d-none">
+                    <div class="row">
+                        <ul class="d-flex topBar__list">
+                            <li class="topBar__list__item1">
+                                <a href="#"><i class="fa-solid fa-location-dot"></i>Store Location</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-solid fa-truck"></i>Order Status</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Top Bar Area End-->
+
+    <!--Header Area Start-->
+    <header>
+        <div class="headersection d-none d-xl-block">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <!--Language & Currency Area Start-->
+                    <div class="col">
+                        <ul class="d-flex">
+                            <li class="headerLanguage language__list">
+                                <a href="#">English<i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="listHeader">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Arabic</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">German</a></li>
+                                    <li><a href="#">Italian</a></li>
+                                    <li><a href="#">Russian</a></li>
+                                    <li><a href="#">Spanich</a></li>
+                                    <li><a href="#">Chinese</a></li>
+                                </ul>
+                            </li>
+                            <li class="headerLanguage">
+                                <a href="#">USD<i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="listHeader">
+                                    <li><a href="#">USD</a></li>
+                                    <li><a href="#">EUR</a></li>
+                                    <li><a href="#">GBP</a></li>
+                                    <li><a href="#">INR</a></li>
+                                    <li><a href="#">BDT</a></li>
+                                    <li><a href="#">JPY</a></li>
+                                    <li><a href="#">CAD</a></li>
+                                    <li><a href="#">AUD</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--LAnguage & Currency Area End-->
+
+                    <!--Logo Area Start-->
+                    <div class="col hearder__logo">
+                        <div class="row justify-content-center">
+                            <a href="./index.html">
+                                <img src="./img/HeaderLogo/logo_225x.png" alt="Learts Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Logo Area Start-->
+
+                    <!--Header Tools Area Start-->
+                    <div class="col">
+                        <div class="row justify-content-end headerTools">
+                            <div class="header__login">
+                                <a href="./login.html"><i class="fa-regular fa-user"></i></a>
+                            </div>
+                            <div class="header__search">
+                                <a id="searchICON" href="#searchCart"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="header__wishlist">
+                                <a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="header__shopping">
+                                <a class="shopping" href="./cart.html">
+                                    <div id="cartLenght"></div>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Header Tools Area End-->
+
+                <!--Menu Bar Area Start-->
+                <div id="headerScrolling" class="menuHeader">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <ul class="d-flex menuList">
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./shoping.html">Shop</a></li>
+                                <li><a href="./Portfolio.html">Portfolio</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./aboutus.html">About Us</a></li>
+                                <li><a href="./contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Menu Bar Area End-->
+            </div>
+            <!--Search Area Start-->
+            <div class="searchCart">
+                <div id="searchCart" class="searchcontainer">
+                    <div class="d-flex flex-column searchContent">
+                        <button id="searchClose" class="closeBtn">.</button>
+                        <div class="col-lg-12 col-12">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input id="searchingProduct" class="searchPorto__Input" type="search" name="search"
+                                        placeholder="Search Our Store">
+                                </div>
+                                <div id="searching">
+                                    <h3 id="searchList__Heading" class="searchList__Heading">Products</h3>
+                                    <ul id="searchingResult"></ul>
+                                </div>
+                            </form>
+                            <p># Type at least 1 character to search # Hit enter to search or ESC to close</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Search Area End-->
+        </div>
+
+        <!--Mobil Header Area Start-->
+        <div id="mobileSrolling" class="mobileHeader d-xl-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--Mobile Logo Start-->
+                    <div class="col hearder__logo">
+                        <div class="row justify-content-center">
+                            <a href="./index.html">
+                                <img src="./img/HeaderLogo/logo-2_225x.png" alt="Learts Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Mobile Logo End-->
+
+                    <!--Mobile Menu Start-->
+                    <div class="col-auto">
+                        <div class="row justify-content-end align-items-center headerTools">
+                            <div class="header__login d-none d-sm-block">
+                                <a href="./login.html"><i class="fa-regular fa-user"></i></a>
+                            </div>
+                            <div class="header__search d-none d-sm-block">
+                                <a href="#Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="header__wishlist d-none d-sm-block">
+                                <a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="header__shopping d-none d-sm-block">
+                                <a class="shopping" href="./cart.html">
+                                    <div id="cartLenght"></div>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                            <div class="mobileMenu">
+                                <a id="mobileMenu" href="#mobileList"><i class="fa-solid fa-minus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Mobile Menu End-->
+                </div>
+            </div>
+        </div>
+        <!--Mobil Header Area End-->
+
+        <!--Mobil Menu Tools Start-->
+        <div id="mobileList" class="menu mobile__menu__open">
+            <div class="d-flex flex-column mobilelistContainer">
+                <!--Mobile Menu Search Start-->
+                <div class="menu__search__form mb-30">
+                    <div id="search-toggle">
+                        <form action="#search" class="form_control">
+                            <input class="searchInput" id="search" type="text" type="search" name="search" value=""
+                                placeholder="Search Our Store">
+                            <button class="searchBtn" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <!--Mobile Menu Search End-->
+                <!--Mobile Menu List Start-->
+                <div>
+                    <ul class="d-flex flex-column menuListmobile">
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./shoping.html">Shop</a></li>
+                        <li><a href="./index.html">Portfolio</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
+                        <li><a href="./commingsoon.html">comming soon</a></li>
+                    </ul>
+                </div>
+                <!--Mobile Menu List End-->
+                <!--Mobile Menu Tools Start-->
+                <div class="row justify-content-start headerTools mb-30 mt-30">
+                    <div class="header__login">
+                        <a href="./login.html"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="header__wishlist">
+                        <a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                    <div class="header__shopping">
+                        <a class="shopping" href="./cart.html">
+                            <div id="cartLenght"></div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Mobile Menu Tools End-->
+                <!--Social Media Area Start-->
+                <div class="socialHeader">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <!--Social Media Area End-->
+
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <!--Mobil Menu Tools End-->
+    </header>
+    <!--Header Area End-->
+
+    <!--Main Area Start-->
+    <main>
+        <!--Home Slider Section Start-->
+        <section class="homeSlider">
+            <div class="owl-carousel owl-theme" id="homeSlider">
+                <!--Slider One Start-->
+                <div class="item">
+                    <div class="slider1 d-flex justify-content-center">
+                        <div class="innerSlider1 d-flex flex-column align-items-center justify-content-center">
+                            <div class="backgroundSlider"></div>
+                            <div class="sliderBorder"></div>
+                            <div class="iconSlider d-flex justify-content-between">
+                                <img src="./img/homeslider/slide-1-1_1024x1024.png" alt="Handicraft Bird Logo">
+                            </div>
+                            <h2 class="sliderHeading mb-11">Handicraft Shop</h2>
+                            <h3 class="subTitle">Just For You</h3>
+                            <div class="sliderLink sliderLink1">
+                                <a href="./shoping.html">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slider One End-->
+                <!--Slider Two Start-->
+                <div class="item">
+                    <div class="slider2 d-flex justify-content-center">
+                        <div class="innerSlider1 d-flex flex-column align-items-center justify-content-center">
+                            <div class="backgroundSlider backgroundSlider2"></div>
+                            <div class="sliderBorder"></div>
+                            <div class="iconSlider d-flex justify-content-between">
+                                <img src="./img/homeslider/slide-2-2_1024x1024.png" alt="crafting Image">
+                                <img class="ml-15" src="./img/homeslider/slide-2-3_1024x1024.png" alt="crafting Image">
+                            </div>
+                            <h2 class="sliderHeading headingSlider2 mb-11">Newely Arrived</h2>
+                            <h3 class="subTitle subTitle2">Scale Up To <br> 10%</h3>
+                            <div class="sliderLink sliderLink2">
+                                <a href="./shoping.html">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slider Two End-->
+                <!--Slider Three Start-->
+                <div class="item">
+                    <div class="slider3 d-flex justify-content-center text-center">
+                        <div class="slider3Contant d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="sliderHeading headingSlider3">Affectious gifts</h2>
+                            <h3 class="subTitle subTitle3">
+                                <img src="./img/homeslider/slide-2-2_1024x1024.png" alt="crafting Image">
+                                For Friends & Family
+                                <img src="./img/homeslider/slide-2-3_1024x1024.png" alt="crafting Image">
+                            </h3>
+                            <div class="linkSlider3">
+                                <a href="./shoping.html">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slider Three End-->
+            </div>
+        </section>
+        <!--Home Slider Section End-->
+
+        <!--Sale Banner Section Start-->
+        <section class="saleBanner">
+            <div class="container">
+                <!--Sale Tittle Start-->
+                <div class="saleTittle text-center">
+                    <h3 class="saleTittle__heading">Just For You</h3>
+                    <h3 class="subTitle subTitle3">
+                        <img src="./img/homeslider/slide-2-2_1024x1024.png" alt="crafting Image">
+                        Making & crafting
+                        <img src="./img/homeslider/slide-2-3_1024x1024.png" alt="crafting Image">
+                    </h3>
+                </div>
+                <!--Sale Tittle End-->
+                <!--Sale Content Details Start -->
+                <div class="row">
+                    <!--Sale Banner1 Start-->
+                    <div class="col-lg-5 col-md-8 col-sm-12 mr-auto">
+                        <div class="saleBaner1">
+                            <div class="inner1 d-flex flex-column justify-content-center align-items-center">
+                                <div>
+                                    <img src="./img/sales/sale-banner1-1.1_1024x1024.png" alt="Sale Logo">
+                                </div>
+                                <div id class="innerTittle mb-3">Spring Sale</div>
+                                <h2 class="row salePercent mb-30 text-center align-items-center">
+                                    <p class="saleNumber">40</p>
+                                    % <br>OFF
+                                </h2>
+                                <a class="shopingLink" href="./shoping.html">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Sale Banner1 End-->
+
+                    <!--Sale Banner2 Start-->
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <div class="saleBanner2">
+                            <div class="inner2">
+                                <div class="saleBanner2__img">
+                                    <img src="./img/sales/sale-banner2-1_1024x1024.jpg" alt="Sale Image">
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <h2 class="inner2Tittle mb-3">10% off</h2>
+                                        <span class="inner2Text">YOUR NEXT PURCHASE</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="btn btn-primary shopBtn" href="./shoping.html">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Sale Banner2 End-->
+                </div>
+                <!--Sale Content Details Start -->
+            </div>
+        </section>
+        <!--Sale Banner Section End-->
+
+        <!--Category Panner Section Start-->
+        <section class="categoriesBanner">
+            <div class="owl-carousel owl-theme" id="categoriesBanner">
+                <!--Category Slider1 Start-->
+                <div class="item">
+                    <div class="categorySlider">
+                        <a href="./toys.html" class="mb-20 category1">
+                            <img src="./img/Categories/banner-s1-1_1024x1024.webp" alt="Toys">
+                        </a>
+                        <div class="category1__Content">
+                            <h3 class="d-flex justify-content-between align-items-center">
+                                <a href="./toys.html">Toys</a>
+                                <span class="categoryNummber">(8)</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Category Slider1 End-->
+                <!--Category Slider2 Start-->
+                <div class="item">
+                    <div class="categorySlider">
+                        <a class="mb-20 category1" href="./decor.html">
+                            <img src="./img/Categories/banner-s1-2_1024x1024.webp" alt="Toys">
+                        </a>
+                        <div class="category1__Content">
+                            <h3 class="d-flex justify-content-between align-items-center">
+                                <a id="springSale" href="./decor.html">Spring Sale</a>
+                                <span class="categoryNummber categoryNummber2">(21)</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Category Slider2 End-->
+
+                <!--Category Slider3 Start-->
+                <div class="item">
+                    <div class="categorySlider">
+                        <a class="mb-20 category1" href="./gift.html">
+                            <img src="./img/Categories/banner-s1-3_1024x1024.webp" alt="Toys">
+                        </a>
+                        <div class="category1__Content">
+                            <h3 class="d-flex justify-content-between align-items-center">
+                                <a href="./gift.html">Gift</a>
+                                <span class="categoryNummber">(8)</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Category Slider3 End-->
+                <!--Category Slider4 Start-->
+                <div class="item">
+                    <div class="categorySlider">
+                        <a class="mb-20 category1" href="./decor.html">
+                            <img src="./img/Categories/banner-s1-4_1024x1024.webp" alt="Toys">
+                        </a>
+                        <div class="category1__Content">
+                            <h3 class="d-flex justify-content-between align-items-center">
+                                <a href="./decor.html">Home Decor</a>
+                                <span class="categoryNummber">(7)</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Category Slider4 End-->
+            </div>
+        </section>
+        <!--Category Panner Section End-->
+
+        <!--Shopping Section Start-->
+        <section class="shopNow">
+            <div class="container">
+                <!--Shop Tittle Start-->
+                <div class="saleTittle text-center">
+                    <h3 class="saleTittle__heading">Shop Now</h3>
+                    <h3 class="subTitle subTitle3">
+                        <img src="./img/homeslider/slide-2-2_1024x1024.png" alt="crafting Image">
+                        Shop our best sellers
+                        <img src="./img/homeslider/slide-2-3_1024x1024.png" alt="crafting Image">
+                    </h3>
+                </div>
+                <!--Shop Tittle End-->
+
+                <!--Filter Area Start-->
+                <div class="filter mb-30">
+                    <div class="container">
+                        <div class="row justify-content-end align-items-center">
+                            <h3 class="filterHeading"><i class="fa-solid fa-filter"></i> Filter</h3>
+                            <ul class="row">
+                            <li id="allProducts" class="filterItem">All Products</li>
+                            <li id="Decor" class="filterItem">Home Decor</li>
+                            <li id="Toys" class="filterItem">Toys</li>
+                            <li id="Gifts" class="filterItem">Gifts</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Filter Area End-->
+
+                <!--Product Area Start-->
+                <div class="row" id="product"></div>
+                <!--Product Area End-->
+
+            </div>
+        </section>
+        <!--Shopping Section End-->
+    </main>
+    <!--Main Area End-->
+
+    <!--Footer Area Start-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center flex-column">
+                <div class="footerLogo text-center mb-60">
+                    <a href="#">
+                        <img src="./img/HeaderLogo/logo_225x.png" alt="">
+                    </a>
+                </div>
+                <div class="footerMenu mb-40">
+                    <ul class="d-flex justify-content-center">
+                        <li class="footerMenuItem">
+                            <a href="./aboutus.html">about us</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">Store Location</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="./contactus.html">Contact</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">support</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">policy</a>
+                        </li>
+                        <li class="footerMenuItem">
+                            <a href="#">faqs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-coloumn justify-content-center mb-50">
+                    <div class="footer__form">
+                        <div class="col">
+                            <form class="footerForm" action="#">
+                                <input class="footerInput" name="customerEmail" type="email"
+                                    placeholder="Your Email Address">
+                                <button name="subscrite" class="btn btn-dark footerBtn" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footerIcon mb-50">
+                    <ul class="row justify-content-center">
+                        <li><a class="productIcon" id="footerIcon1" href="https://www.twitter.com/"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="productIcon" id="footerIcon2" href="https://www.facebook.com/"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="productIcon" id="footerIcon3" href="https://www.instagram.com/"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a class="productIcon" id="footerIcon4" href="https://www.youtube.com/"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footerCopyright d-flex">
+                    <div class="col">
+                        <p class="copyRight">
+                            © 2022 LeArts. All Rights Reserved |
+                            <strong>(+00) 123 456789 </strong>
+                            | <a href="#">contact@demo.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Area End-->
+
+    <!--Back To Top Button Area Start-->
+    <button class="btn" id="backTop"><i class="fa-solid fa-arrow-up"></i></button>
+    <!--Back To Top Button Area End-->
+
+    <!--Js Links Start-->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="./js/productDetails.js"></script>
+    <script src="./js/main.js"></script>
+    <!--Js Links End-->
+</body>
+
+</html>

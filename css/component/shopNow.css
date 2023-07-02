@@ -1,0 +1,357 @@
+.shopNow {
+    padding-bottom: 100px;
+}
+
+.product {
+    position: relative;
+}
+
+.product__img {
+    position: relative;
+    overflow: hidden;
+}
+.product__cart{
+    position: relative;
+}
+.img__Link{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.img__1{
+    width: 100%;
+    z-index: 2;
+}
+.img__hover{
+    width: 100%;
+    z-index: 4;
+    position: absolute;
+    inset: 0;
+    transition-duration: .7s;
+    transform: scale(1.1);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.product__img:hover .img__hover {
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.productBadge {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+/*Product On Sale Start*/
+.onsale {
+    z-index: 99;
+    font-size: 18px;
+    color: #fff;
+    background-color: #68dac1;
+    font-weight: 400;
+    line-height: 48px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+    text-align: center;
+    text-transform: lowercase;
+    border-radius: 50%;
+}
+
+/*Product On Sale End*/
+
+/*Product Wish List Style Start*/
+.wishlist{
+    color: #f8796c;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.wishlistIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 48px;
+    height: 48px;
+    transition: all .5s ease 0s;
+    transform: translateY(-20px);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.loadingIcon{
+    z-index: 2;
+    position: absolute;
+    transform: translateY(20px);
+    top: 15px;
+    right: 15px;
+    width: 48px;
+    height: 48px;
+}
+.hide{
+    visibility: hidden;
+    opacity: 0;
+}
+.show{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wishlistIcon::before {
+    position: absolute;
+    content: "Add To WishList";
+    color: #fff;
+    background: #333;
+    right: calc(100% - 5px);
+    white-space: nowrap;
+    top: 50%;
+    transform: translateY(-70%);
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    transition: all .3s cubic-bezier(.65, .05, .36, 1) 0s;
+    transition: all 0.5s ease 0s;
+    box-shadow: 4px 4px 8px #0000004d;
+    text-shadow: 0 -1px 0 #000;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.wishlistIcon:hover::before {
+    right: calc(100%);
+    visibility: visible;
+    opacity: 1;
+}
+
+.wishlistIcon::after {
+    position: absolute;
+    content: "";
+    border: 6px solid transparent;
+    top: 50%;
+    transition: all .3s cubic-bezier(.65,.05,.36,1) 0s;
+    transform: translateY(-90%);
+    border-left-color: #333;
+    right: calc(100% - 16px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wishlistIcon:hover::after {
+    right: calc(100% - 12px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.product__img:hover .wishlistIcon{
+    z-index: 2;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(20px);
+}
+
+/*Product Wish List Style End*/
+
+/*Product Option Style Start*/
+.productOption{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    background-color: #fff;
+    width: calc(100% - 30px);
+    padding: 15px 10px;
+    transition: all .5s ease 0s;
+    transform: translateY(50%);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product__img:hover .productOption{
+    z-index: 2;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+}
+
+.colorContainer{
+    margin-bottom: 5px;
+}
+
+.colorList{
+    margin: 0;
+    padding: 0;
+}
+
+.img__variant{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+.productOption__img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.colorPlate{
+    border: 2px solid #DDDDDD;
+}
+
+.colorBg1{
+    background-color: rgb(24, 63, 127);
+}
+
+.colorBg2{
+    background-color: #fff;
+}
+.colorBg3{
+    background-color: red;
+}
+
+#productCrop1::before{
+    position: absolute;
+    content: "Red";
+}
+
+#productCrop2::before{
+    position: absolute;
+    content: "Green";
+}
+
+#productCrop3::before{
+    position: absolute;
+    content: "Yellow";
+}
+
+#productCrop4::before{
+    position: absolute;
+    content: "Blue";
+}
+
+#productCrop5::before{
+    position: absolute;
+    content: "White";
+}
+
+.sizeList{
+    color: #333;
+    text-transform: capitalize;
+}
+.size1{
+    margin: 0 5px;
+    padding-bottom: 3px;
+    opacity: .5;
+    font-weight: 400;
+    line-height: 1;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    font-size: 18px;
+}
+.size1:hover{
+    opacity: 1;
+}
+/*Product Option Style End*/
+
+/*Product Tittle Style Start*/
+.productInfo {
+    position: relative;
+}
+
+.product__price__details {
+    transition: all .5s ease 0s;
+}
+
+.product__tittle {
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: 400;
+    color: #151414;
+}
+
+.product__price {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 9px 0 8px 0;
+}
+
+.new__price {
+    color: #f35a4b;
+    font-weight: 800;
+    transition: all .5s ease 0s;
+}
+
+.old__price {
+    color: #817e7e;
+    text-decoration: line-through;
+}
+/*Product Tittle Style End*/
+
+/*Product Buttons Style Start*/
+.productInfo .product__buttons {
+    position: absolute;
+    inset: 0;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: all .5s ease 0s;
+    visibility: hidden;
+}
+
+.product__img:hover .product__buttons {
+    z-index: 2;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.product__img:hover .product__price__details {
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-20px)
+}
+
+.product__buttons .productIcon:hover {
+    background-color: #f8796c;
+}
+/*Product Buttons Style End*/
+.filterHeading{
+    font-size: 20px;
+    color: #333333;
+    margin: 0 18px;
+}
+.filterItem{
+    margin: 0 10px;
+    color: #333333;
+    line-height: 1.5;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+.filterItem::after{
+    background-color: #d0d0d0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0px;
+    left: 0;
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform .5s cubic-bezier(.8, 0, .2, 1), -webkit-transform .5s cubic-bezier(.8, 0, .2, 1);
+}
+
+.filterItem:hover::after{
+    transform: scale3d(1, 1, 1);
+    transform-origin: 0 50%;
+}

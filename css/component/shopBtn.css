@@ -1,0 +1,27 @@
+.shopBtn{
+    background-color: #f9f0ee;
+    color: #333333;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 15px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 500px;
+    outline: none;
+    border-color:#f9f0ee;
+}
+.shopBtn:hover{
+    background-color: #f9f0ee;
+    border-color: #333333;
+    color: #333333;
+}
+.shopBtn:focus{
+    box-shadow: none;
+    outline: none;
+}
+.shopBtn:active{
+    background-color: #f9f0ee !important;
+    border-color: #333333 !important;
+    color: #333333 !important;
+    box-shadow: unset !important;
+}

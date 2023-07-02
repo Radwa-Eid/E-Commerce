@@ -1,0 +1,158 @@
+#yourCart{
+    padding: 100px 0;
+}
+.cartTable{
+    width: 100%;
+}
+.table__style{
+    border-color: #ddd;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.tableRow{
+    position: relative;
+}
+.colHeader{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: black;
+    font-weight: 400;
+    font-size:  18px ;
+    vertical-align: middle;
+}
+.imgProduct{
+    width: 130px;
+}
+.imgProduct img{
+    width: 100%;
+}
+.dataRow{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.tittleProduct{
+    width: 270px;
+}
+.priceProduct{
+    width: 130px;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+}
+.quanityProduct{
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    width: 180px;
+}
+.productNum{
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+
+.productNum .plus{
+    cursor: pointer;
+    padding-right:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.productNum .minus{
+    cursor: pointer;
+    padding-left: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.totalPriceProduct{
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    width: 120px;
+}
+.removePrice{
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    width: 150px;
+}
+.removePrice i{
+    cursor: pointer;
+}
+
+/*Delivery Date Style Start*/
+.deliveryHeading{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+.dateDeliv{
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    color: #333;
+}
+.deleText{
+    font-size: 18px;
+    font-weight: 300;
+}
+.select{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+select{
+    width: 100%;
+    margin: 0 ;
+    padding: 0 ;
+}
+.formSub{
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+.subForm{
+    width: 400px;
+    padding: 40px 30px;
+    text-align: center;
+}
+.cartHeading{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+.subTable th , td{
+    border: 1px solid #e5e5e5;
+}
+.subtittle{
+    font-family: Futura;
+    font-weight: 700;
+    color: #333;
+}
+.subtittle th {
+    font-size: 18px;
+    padding: 15px 10px;
+    text-align: left;
+}
+.subtittle td{
+    padding: 15px 30px;
+    text-align: right;
+}
+.checkOut{
+    color: inherit;
+}
+.checkOut:hover{
+    color: inherit;
+}

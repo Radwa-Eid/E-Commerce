@@ -1,0 +1,44 @@
+.contactInfo{
+    padding: 80px 0;
+}
+.contact__tittle{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    color: #333;
+}
+.contact__text{
+    line-height: 1.75;
+    max-width: 570px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.contact__info__heading{
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding-left: 44px;
+    color: #333;
+}
+.contact__info__text{
+    position: relative;
+    padding: 0;
+    padding-left: 38px;
+    line-height: 1.75;
+    font-size: 18px;
+    font-family: Futura;
+    font-weight: 300;
+}
+.contact__info__text i{
+    position: absolute;
+    font-size: 22px;
+    line-height: 32px;
+    top: 0;
+    left: 0;
+    color: #d8d8d8;
+}
+.emailContect:hover{
+    color: #f8796c;
+}

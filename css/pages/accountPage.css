@@ -1,0 +1,40 @@
+.accountPage{
+    padding: 100px 0;
+}
+.loginForm{
+    background: #f3f3f3 none repeat scroll 0 0;
+    padding: 37px 40px;
+    text-align: left;
+    overflow: hidden;
+}
+.loginText__heading{
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.loginBtn{
+    border-radius: 0;
+    background-color: black;
+    font-size: 14px;
+    padding: 8px 25px;
+    font-weight: 600;
+    border: none;
+}
+.loginBtn:hover{
+    background-color: #666;
+    border: none;
+    outline: none;
+}
+.forgetPass{
+    color: #333;
+    margin-top: 7px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.forgetPass:hover{
+    color: #666;
+}
+#forgetPassForm{
+    display: none;
+}

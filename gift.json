@@ -1,0 +1,50 @@
+[
+    {
+        "id": 9,
+        "count": 1,
+        "title": "Walnut Cutting Board",
+        "img1": "./img/products/product-1-540x720_360x.jpg",
+        "image_url": "./img/products/product-74-540x720_360x.jpg",
+        "newPrice": 29.00
+    },
+    {
+        "id": 10,
+        "count": 1,
+        "title": "Black Leather Watch",
+        "img1": "./img/products/w1_360x.jpg",
+        "image_url": "./img/products/w2_360x.jpg",
+        "newPrice": 50.00
+    },
+    {
+        "id": 11,
+        "count": 1,
+        "title": "Brush & Dustpan Set",
+        "img1": "./img/products/product-35-540x720_360x.jpg",
+        "image_url": "./img/products/product-36-540x720_360x.jpg",
+        "newPrice": 50.00
+    },
+    {
+        "id": 12,
+        "count": 1,
+        "title": "Pizza Palet Tray",
+        "img1": "./img/products/product-69-540x720_360x.jpg",
+        "image_url": "./img/products/product-66-540x720_360x.png",
+        "newPrice": 50.00
+    },
+    {
+        "id": 13,
+        "count": 1,
+        "title": "Motorized Tricycle",
+        "img1": "./img/products/product-3-540x720_360x.png",
+        "image_url": "./img/products/product-1-540x720_360x.png",
+        "newPrice": 79.00
+    },
+    {
+        "id": 14,
+        "count": 1,
+        "title": "Cleaning Dustpan & Brush",
+        "img1": "./img/products/product-18-540x720_360x.jpg",
+        "image_url": "./img/products/product-19-540x720_360x.jpg",
+        "newPrice": 29.00
+    }
+]
